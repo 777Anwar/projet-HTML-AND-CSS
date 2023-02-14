@@ -1,0 +1,66 @@
+.background{
+    background-image: url(../images/rm125-ning-83-frame.jpg);
+	background-size: cover;
+    background-position: center;
+	height: 100vh;
+    width: 100%;
+    margin-top: -20px;
+
+}
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif  ;     
+color: #ff0000;
+padding: 10px 20px;
+text-align: center;
+width: fit-content;
+margin: 20px auto;
+font-size: 73px;
+margin-bottom: 20px;
+}
+.myButton {
+    background-color: #fbff00;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  p{
+    text-align: center;
+    color: white;
+  }
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+  }
+  .myButton:hover {
+    background-color: rgb(209, 61, 61);
+    color: white;
+  }
+
+  .button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35px;
+  }
+  button:hover {
+    background-color: yellow;
+  }
+  
